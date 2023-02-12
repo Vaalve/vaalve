@@ -286,10 +286,18 @@ h5 {
   vertical-align: center;
   color: #fff;
   font-weight: 400;
-  font-size: 1.2em;
+  font-size: 0.8em;
   align-items: center;
   text-decoration: none;
+  outline: 1px solid black;
 }
+
+.resource-box img {
+  width: 350px;
+  height: 200px;
+  opacity: 0.8;
+}
+
 
 .resource-box:hover {
   background-color: #350066;
@@ -297,7 +305,7 @@ h5 {
 
 .resource-box-btwn {
   width: 20px;
-  height: 60px;
+  height: 200px;
   background-color: #fff;
   border-radius: 10px;
   text-align: center;

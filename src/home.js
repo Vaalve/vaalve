@@ -35,29 +35,47 @@ function Home() {
           </div>
           <div className='resources-container'>
             <a href="https://www.healthline.com/health/coronary-artery-disease">
-             <div className='resource-box'>Coronary Heart Disease: <br></br> A Beginner's Guide</div>
+             <div className='resource-box'>
+              <img src='1.png' alt='cor_art' />
+              Coronary Heart Disease: <br></br> A Beginner's Guide
+              </div>
             </a>
             <div className='resource-box-btwn'></div>
             <a href='https://www.mayoclinic.org/diseases-conditions/heart-arrhythmia/symptoms-causes/syc-20350668'>
-              <div className='resource-box'>An Accurate Look into Arrhythmia</div>
+              <div className='resource-box'>
+                <img src='2.png' alt='cor_art' />
+                An Accurate Look into Arrhythmia
+                </div>
             </a>    
             <div className='resource-box-btwn'></div>
             <a href='https://www.mayoclinic.org/diseases-conditions/cardiomyopathy/symptoms-causes/syc-20370709'>
-              <div className='resource-box'>A Cardiac Condition: Cardiomyopathy</div>
+              <div className='resource-box'>
+                <img src='3.png' alt='cor_art' />
+                  A Cardiac Condition: Cardiomyopathy
+                </div>
             </a>
             <div className='resource-box-btwn'></div>
           </div>
           <div className='resources-container'>
             <a href='https://www.mayoclinic.org/diseases-conditions/heart-valve-disease/symptoms-causes/syc-20353727'>
-              <div className='resource-box'>What is Valvular Heart Disease?</div>
+              <div className='resource-box'>
+              <img src='4.png' alt='cor_art' />
+                What is Valvular Heart Disease?
+              </div>
             </a>
             <div className='resource-box-btwn'></div>
             <a href='https://www.healthline.com/health/endocarditis'>
-              <div className='resource-box'>Exploring Endocarditis</div>
+              <div className='resource-box'>
+              <img src='5.png' alt='cor_art' />
+                Exploring Endocarditis
+                </div>
             </a>
             <div className='resource-box-btwn'></div>
             <a href='https://www.youtube.com/watch?v=RTxMHPGksJw'>
-              <div className='resource-box'>A Child's Guide: Heart Disease</div>
+              <div className='resource-box'>
+              <img src='6.png' alt='cor_art' />
+                A Child's Guide: Heart Disease
+                </div>
             </a>
             <div className='resource-box-btwn'></div>
           </div>
