@@ -1,12 +1,12 @@
 import './App.css';
-import Home from './home';
-// import Q1 from './Quiz1';
+import Home from './Home';
+import * as React from 'react';
+
 
 function App() {
   return (
     <>
     <Home />
-    {/* <Q1 /> */}
     </>
   );
 }
