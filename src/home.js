@@ -1,7 +1,9 @@
 import './App.css';
+import * as React from 'react';
+
 
 function Home() {
-    return (
+  return (
       <>     
         <div className="navbar">
           <h1>vaalve.</h1>
@@ -17,16 +19,50 @@ function Home() {
           <div className='header-body'>
             <p>your heart in your hands</p>
           </div>
-          <div className='rect-container'>
-            <div className="right">
-              <h2>Start Quiz</h2>
-            </div>
-          </div>
         </div>
+        <body>
+          <div className='rect-container'>
+              <a href='./Quiz1.js' className="right">
+                <h2>Start Quiz</h2>
+              </a>  
+          </div>
+          <div className='our-mission'>
+            <p1>Resources</p1>
+          </div>
+          <div className='resources-container'>
+            <a href="https://www.healthline.com/health/coronary-artery-disease">
+             <div className='resource-box'>Coronary Heart Disease: <br></br> A Beginner's Guide</div>
+            </a>
+            <div className='resource-box-btwn'></div>
+            <a href='https://www.mayoclinic.org/diseases-conditions/heart-arrhythmia/symptoms-causes/syc-20350668'>
+              <div className='resource-box'>An Accurate Look into Arrhythmia</div>
+            </a>    
+            <div className='resource-box-btwn'></div>
+            <a href='https://www.mayoclinic.org/diseases-conditions/cardiomyopathy/symptoms-causes/syc-20370709'>
+              <div className='resource-box'>A Cardiac Condition: Cardiomyopathy</div>
+            </a>
+            <div className='resource-box-btwn'></div>
+          </div>
+          <div className='resources-container'>
+            <a href='https://www.mayoclinic.org/diseases-conditions/heart-valve-disease/symptoms-causes/syc-20353727'>
+              <div className='resource-box'>What is Valvular Heart Disease?</div>
+            </a>
+            <div className='resource-box-btwn'></div>
+            <a href='https://www.healthline.com/health/endocarditis'>
+              <div className='resource-box'>Exploring Endocarditis</div>
+            </a>
+            <div className='resource-box-btwn'></div>
+            <a href='https://www.youtube.com/watch?v=RTxMHPGksJw'>
+              <div className='resource-box'>A Child's Guide: Heart Disease</div>
+            </a>
+            <div className='resource-box-btwn'></div>
+          </div>
+        </body>
         <div className='our-mission'>
           <p1>Our Mission</p1>
         </div>
           <div class="card-container">
+            <div className='resource-box-btwn'></div>
             <div class="card">
               <div class="card-body">
                 <p2>We aim to assist people in determining their underlying cardiac conditions 
@@ -37,6 +73,6 @@ function Home() {
           </div>
       </>
     );
-  }
-  
-  export default Home;
+    }
+
+    export default Home;
