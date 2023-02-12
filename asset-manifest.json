@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/vaalve/static/css/main.c0a966b4.css",
+    "main.js": "/vaalve/static/js/main.5717c89a.js",
+    "static/js/787.646ab60a.chunk.js": "/vaalve/static/js/787.646ab60a.chunk.js",
+    "index.html": "/vaalve/index.html",
+    "main.c0a966b4.css.map": "/vaalve/static/css/main.c0a966b4.css.map",
+    "main.5717c89a.js.map": "/vaalve/static/js/main.5717c89a.js.map",
+    "787.646ab60a.chunk.js.map": "/vaalve/static/js/787.646ab60a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0a966b4.css",
+    "static/js/main.5717c89a.js"
+  ]
+}
