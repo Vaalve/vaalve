@@ -8,7 +8,9 @@ function Home() {
         <div className="navbar">
           <h1>vaalve.</h1>
           <div className = "right">
-            <h2>Take Quiz</h2>
+            <a href='https://take.quiz-maker.com/Q7DIKXN8S'>
+              <h2>Take Quiz</h2>
+            </a>
           </div>
           <div className='header-text'> 
             <h6>Vaalve</h6>
@@ -22,9 +24,11 @@ function Home() {
         </div>
         <body>
           <div className='rect-container'>
-              <a href='./Quiz1.js' className="right">
+              <div className="right">
+              <a href='https://take.quiz-maker.com/Q7DIKXN8S'>
                 <h2>Start Quiz</h2>
-              </a>  
+              </a> 
+              </div> 
           </div>
           <div className='our-mission'>
             <p1>Resources</p1>

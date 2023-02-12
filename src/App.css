@@ -12,6 +12,10 @@
   width: 12%;
 }
 
+.right:hover {
+  background-color:#350066;
+}
+
 .rect-container {
   justify-content: center;
   align-items: center;
@@ -24,6 +28,9 @@
   .right {
     height: 50px;
     width: 150px;
+  }
+  .right:hover {
+    background-color:#350066;
   }
   .start-quiz {
     height: 50px;
