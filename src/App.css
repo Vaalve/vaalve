@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap');
+
 .App {
   text-align: center;
 }
@@ -89,4 +91,75 @@ h1.centercard{
 
 .rectangle {
   width: 23px;
+}
+
+.question-num {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    font-size: 1.5em;
+}
+
+.question-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h4 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    font-size: 1.6em;
+}
+
+.answer-group {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.answer {
+    background-color: #350066;
+    width: 60%;
+    height: 40%;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    vertical-align: center;
+    display: flex;
+}
+
+@media (max-width: 800px) {
+  .box {
+    width: 40%;
+    height: 40%;
+  }
+}
+
+.answer-btwn {
+    background-color: #fff;
+    height: 15px;
+}
+
+h5 {
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    font-size: 1.2em;
+    vertical-align: center;
 }
